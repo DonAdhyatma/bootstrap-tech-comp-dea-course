@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head ini biasanya berisi untuk kebutuhan seo sebuah website -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCompTech</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- kodingan inline css -->
+    <div style="background-color: bisque; width: 50%; margin: 0 auto">
+      <marquee behavior="" direction="">
+        <h1 style="text-align: center; text-decoration: underline; color: rebeccapurple">My Comp Tech</h1>
+      </marquee>
+      <a href="#box">GO TO BOTTOM</a>
+      <!-- tag marquee jarang digunakan biasanya lebih menggunakan css animation / javascript -->
+    </div>
+
+    <!-- kodingan polos -->
+    <div class="container">
+      <h1 class="title">My Comp Tech</h1>
+      <!-- <marquee>
+        <img src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/693783_19-4-2021_10-4-17.webp" alt="burung" width="150px" />
+      </marquee> -->
+    </div>
+    <!-- kodingan by id -->
+    <!-- nama/nilai id pada file html tidak bisa digunakan berulang-ulang -->
+    <!-- salah satu kelebihan dari atribut id ini dapat dijadikan sebagai link pada suatu element -->
+    <div id="box">
+      <h1 id="judul">HI BRO KUH &#128514;</h1>
+    </div>
+    <!-- biasanya untuk kebutuhan styling yang tidak terlalu mendalam cukup menggunakan atribut class -->
+    <!-- ketika kebutuhan styling /customize yang sudah mendalam, apalagi ketika menggunakan javascript lebih disarankan memakai id -->
+    <!-- <script>
+      const box = document.getElementById('box');
+      box.textContent = 'WAKWKAWAKWKAWKAKAWKWAK';
+    </script> -->
+  </body>
+</html>

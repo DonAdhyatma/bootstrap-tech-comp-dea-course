@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;500;800&display=swap');
+/* membuat variable di css */
+:root {
+  --main-color: #76b900;
+  --second-color: #636260;
+}
+
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+.my-nav {
+  background-color: #000;
+  min-height: 80px; /* heightnya bisa diganti dengan nilai auto*/
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 2.5em;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: var(--main-color);
+}
+
+.description {
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.mybg {
+  background-image: url('assets/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.text-new {
+  color: var(--second-color);
+  font-weight: 500;
+}
+
+.subtitle {
+  font-weight: 500;
+  color: var(--main-color);
+  font-size: 2em;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}
+
+.subdescription {
+  color: #000;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+p > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* @media (max-width: 780px) {
+  .my-nav {
+    height: auto !important;
+  }
+} */
